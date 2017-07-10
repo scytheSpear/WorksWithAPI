@@ -1,0 +1,442 @@
+/* Main Sections */
+html 
+{
+    background: #FFF; 
+    border: 0;
+}
+
+article 
+{ 
+    padding: 20px;
+}
+
+form
+{
+    border: 0;
+}
+form p
+{
+    font-weight: bold; 
+    margin: 0; 
+}
+
+input 
+{ 
+    margin-bottom: 20px; 
+}
+
+textarea 
+{ 
+    display: block; 
+    margin-bottom: 10px;
+    height: 240px; 
+    width: 480px;}
+/* Error validation */
+.error 
+{ 
+    color: red; 
+    font-weight: bold; 
+}
+
+
+/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #fff;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", "Arial";
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+    border: 0;    
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{   
+    height: auto;   
+    background-color: #fff;
+    margin-top: 90px;
+    left: 20%;
+    border: 1px solid #496077;
+
+}
+
+header
+{
+    height:70px;
+    position: inherit;
+    left: 0px;
+    padding: 12px 0px 8px 0px;
+    background: #0066FF;
+    width: 100%;
+    top: 0px;    
+}
+
+header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px #000;
+}
+
+
+div.home h2
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+    font-family:Arial;
+}
+
+div.home p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    text-align: center;
+}  
+
+.myHr
+{  
+    width: 100%;
+    background-color: #987cb9; 
+    height: 4px;
+}
+
+.profImg
+{
+    position: float;
+    float: left;
+}
+.twitter
+{
+    padding:20px 20px 20px 20px;
+
+}
+
+div.registration 
+{
+    padding: 20px 20px 20 px 20px;
+}
+
+div.registration h2
+{
+    padding: 20px 20px 20 px 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+    font-family:Arial;
+}
+
+div.registration p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+
+}
+
+
+
+footer
+{
+    text-align: center;
+    line-height: normal; 
+    position:fixed;
+    background: #0066FF;
+    width: 100%;
+    bottom: 0px;
+
+}
+
+footer h2
+{
+    color: #f9f9f9;
+}
+
+.panel
+{
+
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+
+div.menu
+{ 
+
+    padding: 4px 8px 4px 16px;
+}
+
+div.menu ul
+{
+    list-style:none;     
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+
+
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+
+
+.bold
+{
+    font-weight: bold;
+}
+
+
+.myList ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.myList a
+{
+    display: block;
+    color: #FFF;
+    background-color: #0099FF;
+    width: 80%;
+    padding: 3px 12px 3px 8px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
+
+.myList a:hover
+{
+    background-color: #369;
+    color: #FFF;
+}
+
+.myList li li a
+{
+    display: block;
+    color: #FFF;
+    background-color: #69C;
+    padding: 3px 3px 3px 17px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    font-weight: normal;
+}
+
+.newsPad{
+    padding: 40px 20px 0px 20px;
+    position: float;
+    float:right;
+    columns:2; 
+    border:0; 
+    rules:all; 
+}
+
+.myImg1
+{
+    padding: 40px 20px 0px 20px;
+    position: float;
+    float:right;
+}
+
+
+
+.myImg2
+{
+    padding: 00px 40px 0px 0px;
+    transform:rotate(15deg);
+    -ms-transform:rotate(25deg); /* IE 9 */
+    -moz-transform:rotate(25deg); /* Firefox */
+    -webkit-transform:rotate(25deg); /* Safari and Chrome */
+    -o-transform:rotate(25deg); /* Opera */
+    position: float;
+    float:right;
+}
+
+.white
+{
+    color: #FFF;
+}
+
+.registration
+{
+    color: #FFF;
+    background:url(jpg2.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-origin:border-box;
+}
+
+.myHr1
+{
+    border: 0;
+    width: 0;
+}
+
+.userInfo
+{
+
+}
+
+.outerTable{
+    table-layout:fixed;   
+    text-align:center;
+}
+.checkBoxStyle{
+    width: 10%;
+    text-align:center;
+}
+.custNameStyle{
+    width:30%;
+    text-align:center;
+}
+.notesStyle{
+    width: 60%;
+    text-align:center;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.myButton{
+    alignment-adjust: central;
+    text-align:center;
+}
+
+.myTable td {
+    text-align: center;
+
+}
+
+.myTable caption{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+    font-family:Arial;
+}
+
+.a{
+    background-color: #000;
+}
